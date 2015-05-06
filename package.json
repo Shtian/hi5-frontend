@@ -1,9 +1,27 @@
 {
-  "name": "material-start",
+  "name": "Hi5-frontend",
   "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS Material",
-  "repository": "https://github.com/angular/material-start",
+  "version": "0.0.1",
+  "description": "Hi5 WebApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server -a localhost -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shtian/hi5-frontend.git"
+  },
+  "contributors": [
+    {
+      "name": "Stian Haga",
+      "email": "hagastian@gmail.com"
+    },
+    {
+      "name": "Sofien Lazreg",
+      "email": "lazreg87@gmail.com"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
@@ -13,8 +31,8 @@
     "shelljs": "^0.2.6",
     "karma-junit-reporter": "^0.2.2"
   },
-  "scripts": {
-    "postinstall": "bower update",
-    "prestart": "npm update"
-  }
+  "bugs": {
+    "url": "https://github.com/Shtian/hi5-frontend/issues"
+  },
+  "homepage": "https://github.com/Shtian/hi5-frontend"
 }
